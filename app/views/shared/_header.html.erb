@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-md fixed-top">
+      <a class="navbar-brand" href="/">
+      <%= image_tag 'data_collection_logo.png', class: 'header_image', style: "margin-right: 5px; height: 50px; width: 50px;" %>Collect n Report</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Forms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Reports</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <div class="menu_login_container rfloat _ohf" data-testid="royal_login_form">
+            <form id="login_form"  method="post" novalidate="1" onsubmit="">
+               <input type="hidden" name="jazoest" value="2604" autocomplete="off">
+               <input type="hidden" name="lsd" value="AVp9Q5RD" autocomplete="off">
+              <table cellspacing="0" role="presentation">
+                <tbody>
+                  <tr>
+                    <td class="html7magic">
+                      <label for="email">Email or phone</label></td>
+                      <td class="html7magic"><label for="pass">Password</label></td>
+                    </tr><tr>
+                        <td>
+                          <input type="email" class="inputtext login_form_input_box" name="email" id="email" data-testid="royal_email" autofocus="">
+                        </td>
+                        <td>
+                          <input type="password" class="inputtext login_form_input_box" name="pass" id="pass" data-testid="royal_pass">
+                        </td>
+                        <td>
+                          <label class="login_form_login_button uiButton uiButtonConfirm" id="loginbutton" for="u_0_b">
+                          <input value="Log In" aria-label="Log In" data-testid="royal_login_button" type="submit" id="u_0_b"></label>
+                        </td>
+                      </tr>
+                </tbody>
+              </table>
+            </form>
+          </div>  
+        </form>
+      </div>
+    </nav>
+    
